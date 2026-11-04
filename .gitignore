@@ -1,0 +1,76 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Datasets
+# =========================
+data/
+datasets/
+img_align_celeba/
+*.zip
+
+# =========================
+# Model Checkpoints
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# =========================
+# Training Outputs
+# =========================
+runs/
+logs/
+tensorboard/
+wandb/
+
+# =========================
+# Generated Images
+# =========================
+generated_images/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# IDE and Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.log
